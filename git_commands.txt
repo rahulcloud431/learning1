@@ -1,0 +1,11 @@
+git add . -->  to add all files from working tree to staging area 
+git add test/ --> to add all files in folder from working tree to staging area
+git add test/test.py --> to add particular file from working tree to staging area
+git add --help --> to see help regarding the add command
+git status --> to check working area status
+git config --global user.name "rahul" --> to update user name on global config list
+git config --global user.email "email" --> to update email on global config list
+git commit -m "commit message" --> to commit files from staging area to local repo
+git log --> to view commits done till now with full commid id
+git log --oneline --> to view commits till now with short commit id
+echo "hello" >> test/test.py --> to add new file in to folder
