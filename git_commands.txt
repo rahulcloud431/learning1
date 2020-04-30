@@ -9,3 +9,6 @@ git commit -m "commit message" --> to commit files from staging area to local re
 git log --> to view commits done till now with full commid id
 git log --oneline --> to view commits till now with short commit id
 echo "hello" >> test/test.py --> to add new file in to folder
+
+git checkout -- filename --> revert changes from work tree
+git reset filename --> revert changes from staging area to working tree
