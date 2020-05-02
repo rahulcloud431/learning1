@@ -12,3 +12,6 @@ echo "hello" >> test/test.py --> to add new file in to folder
 
 git checkout -- filename --> revert changes from work tree
 git reset filename --> revert changes from staging area to working tree
+
+git remote --help
+
